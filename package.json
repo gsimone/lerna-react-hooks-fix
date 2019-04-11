@@ -1,0 +1,16 @@
+{
+  "name": "lernazzo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bs": "lerna bootstrap --hoist",
+    "bsnh": "lerna bootstrap && cd packages/components && npm link ../frontend/node_modules/react"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lerna": "^3.4.3"
+  }
+}
